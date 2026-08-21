@@ -16,6 +16,10 @@ Portfolio #1 [Ethan Liu](https://BiggestWaffler.github.io)
 
 Portfolio #2 [Khameron Thomas](https://instructure.charlotte.edu/eportfolios/4981/home)
 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;With regards to ease of navigation, this portfolio does an excellent job by having the assignments page visible at all time on the left hand side of the screen, where one would typically associate important links one would want to access quickly to be. Finding a specific assignment is relatively easy to find, so long as you know almost exactly what you're looking for, as each assignment is titled. However if you only had a fragmentary memory of what you were looking for, it would be more difficult to find a specific assignment as only the titles and no descriptions of the assignments are given. Overall though,  given the small amount of links and overall little content, this portfolio is easy to navigate and anything could be found easily under a minute.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; Each assignment within this portfolio contains practically every step of the design process while still maintaining to be relatively concise. Thomas employs a method where images are combined with short paragraphs to give the reader a full comprehensive view of their work without overwhelming them with a cluttered image or an exorbitant amount of text. Within the images Thomas writes down every step for all math done, and formats it in a very easy to read way making it clear what steps are being taking in his math. Additionally, all important values such as safety rating, applied load, cross section, etc., are given. All of this comes together to allow any colleague to easily replicate Thomas' work, where there is enough detail given to have this portfolio essentially be an instruction manual on how to do the work laid out. </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 
 ## Decide
 
