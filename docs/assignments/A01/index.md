@@ -1,4 +1,4 @@
-# A1 – [Topic]
+# A1 – Analysis, Portfolio Creation - AUG/24/2026
 
 ## Objective
 
@@ -64,10 +64,18 @@ Original patent [US4040556A](https://patents.google.com/patent/US4040556A/en?oq=
 <p>&nbsp;&nbsp;&nbsp;&nbsp; One design decision present in this original patent that I would like to point out would be the leaf spring holding the upper assembly up so that there is a "throat" in which you can insert paper. I believe this choice was made to allow the user to know the maximum thickness of material that a staple can go through before being unable to bind efficiently. If the upper assembly was not held up and always rested, users may try to staple papers an inch or more thick, which would not allow the staple, which have an average size of around 1/4in, to be able to touch the anvil and bend which is what primarily binds the papers together. With the set throat height however, if the stack of papers fit within the throat, it is guaranteed that the staple will be able to pierce all the paper while still touching the anvil and bending into its binding position. </p>
 
 
-
-
 ## Decide
+The changes I made to the home page were to
+- Move the "Use the navigation on the left.." to the very top directly underneath the banner and bold it
+-Move the quote "Engineering is that art..." directly above the paragraph mentioning what the portfolio is
+- Change all 2nd person pronouns to first person
+- Delete the *Semester arc* section
 
+<p>&nbsp;&nbsp;&nbsp;&nbsp;I believe that the introduction for a portfolio or any other professional document must be as concise and get straight to the point in as little words possible, and contain the most important information first, a "catch" 2nd, and then only relevant information after that. When an employer is sifting through hundreds of portfolios and resumes, they are only going to spend a few seconds looking at each one. As such keeping an introduction short but eye-catching by physically moving all of the long blocks of text further down the page, and keeping the short punchy information at the top, is sure to give an employer as much relevant information of you as physically possible in as short of amount of time as possible. Additionally, as this portfolio is a personal document, if I were to have left the template as-is where its speaking to me the student in the 2nd person, anyone looking through my portfolio would immediately catch that and notice that I did not make a deliberate effort to make such a simple change, would could have implications of laziness and non-attention to detail in the workplace. Lastly, once this semester is over, this portfolio will be a personal record of things I have already done. If I was to keep things such as the 2nd part of the main paragraph that details what engineering documentation is and how I will learn it, and the course schedule, these will all be irrelevant pieces of information to anyone viewing this as a record of what I have done. Thus, as stated previously, if it is irrelevant, it is unneeded, and thus deleted.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The one change I made to the template was to add names in front of the assignment numbers. This was done to help someone who may be looking through my portfolio to easily find a specific assignment I did without having to know which assignment number corresponds to what assignment, and instead only having to know w hat the assignment was about. As an example, instead of simply reading "A3," the side bar will read "Parametric design and FEA." Within each assignment document, the title at the top will be a further descriptive title, and contain the date of completion.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;I intended for the quality within this portfolio to be indistinguishable, quality wise, from one by an engineer who has had years working within industry.</p>
 
 ## Communicate
+
+
 
