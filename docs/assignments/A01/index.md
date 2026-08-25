@@ -21,6 +21,41 @@ Portfolio #2 [Khameron Thomas](https://instructure.charlotte.edu/eportfolios/498
 <p>&nbsp;&nbsp;&nbsp;&nbsp;Despite the ease of replicability, all the values chosen or actions taken are not given reasons as to why they were chosen, only what was chosen. There is only a single example where Thomas describes that he chose PLA for a specific assignment due to PLA's properties and his familiarity with the material. Apart from this lone example however, no other decision has any given reasoning as to why said decision was made, nor something such as a timeline of trails which did not work and had to be revised.</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;While the entire portfolio is written extremely professionally, making sure to not have excess fluff and describe only relevant details, the entire portfolio is written using an active voice, i.e. first person pronouns when describing what actions took place. While this may not have a major effect on if an employer were to choose Thomas or not, professional engineers are expected to have all technical communications written in a passive voice. However, this is the only noticeable error within the entire portfolio as it pertains to tone, with the rest of the portfolio containing a mostly professional tone, containing no slang and analytical language, but occasionally sentences are written in colloquial sentence.</p>
 
+### Product Analysis
+
+Hand-operated stapler, patent [US4040556A](https://patents.google.com/patent/US4040556A/en?oq=4040556)
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The primary purpose of a hand-operated stapler is to facilitate binding 2 or more materials which are softer than the thin binding material (also known as "staples") being used by concentrating the user's applied force through a driver which then acts upon the thin U shaped staples, and then using the same force which was applied to drive the staple to then bend the "open" piercing side of the staple to create a locked binder. Additionally, a spring loaded arm constantly replenishes the operating section of the stapler by using a compressed spring with a square head that pushes a strip of bonded together staples directly underneath the driver, so that multiple staples can be driven in quick succession.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;The primary physics principles behind the hand-operated stapler is Newton's first and third law, which state that a stationary object will stay stationary unless acted upon by a force, and that every action has an equal and opposite reaction respectively. In the case of the hand-operated stapler, the first law is applied in the function of the compressed spring which feeds the stapler driver. As the spring is compressed, it contains potential energy which, due to the nature of springs, wants to equalize and turn into kinetic energy. However, the strip of staples wedged between the head of the spring and retaining walls on the other 4 sides of the staples stop it from doing so. That is until the user applies force to the leading staple, ejecting it, causing that staple to break off from the strip, thus leaving an empty space for the potential energy within the spring to then turn into kinetic energy, producing a force on the remaining staples in the strip, and, due to the spring only being able to push the staples in only one direction due to the retaining walls, pushing the remaining staples forward to fill the gap, and allow for the process to repeat. Thus, the head of the spring will stay stationary (as it is held in on all 4 sides) until a gap is made and the spring force is allowed to act upon it. Newton third law is then demonstrated in the anvil of the hand-operated stapler, which is responsible for creating the binding shape of a completed staple. As the driver applies a force to the staple, the staple is then pushed into the anvil and applies a force against the anvil. However, due to Newton's third law, the anvil pushes back against the staple with an equal force. Then due to the fact that the anvil is much stronger than the staple, the staple then bends following the grooves imprinted within the anvil, causing the staple to then be formed into a binding shape.</p>
+
+
+<img height="500" alt="Driver 1" src="https://github.com/user-attachments/assets/2f2a9975-ce6f-4e2a-8d5c-ceb6bb1a18d0" />
+
+Stapler driver, which drives the staple through the material to be bound and into the anvil to be formed.
+
+
+<img height="500" alt="Driver 2" src="https://github.com/user-attachments/assets/5f3effa6-268c-40c0-88b8-489c3546ceeb" />
+
+Stapler driver viewed upside down. Here we can see upper retaining walls (which were held down in the previous positioin) held up by a spring. Both of which work together to push on the staple strip in the magazine to hold them in place while the driver drives a staple. If the upper retaining walls were not pushing down on the non-driven staples, the pusher may prematurely push the staples into the staple opening and cause a jam.
+
+
+<img height="500" alt="Magazine 1" src="https://github.com/user-attachments/assets/17db60a8-97dc-4c21-91fd-024ac4372436" />
+<img height="500" alt="Magazine 2" src="https://github.com/user-attachments/assets/40571469-f432-4314-813f-04c8bee443e8" />
+
+Compression spring which pushes pusher into staple strip from behind. The staple strips are then guided by retaining walls to go in only one direction, stopping when one staple is above the staple hole.
+
+<img width="2776" height="2082" alt="Magazine 3" src="https://github.com/user-attachments/assets/8c5f5b92-b3b9-4ef5-96e6-96c15152069e" />
+
+Magazine viewed from below, showing a staple primed in the staple opening.
+
+
+<img height="500" alt="Full" src="https://github.com/user-attachments/assets/992e34df-7580-4500-a62f-92d001fecc80" />
+
+Every componant than is stacked vertically to where the grooves in the anvil, the staple opening, one staple, and the driver are all lie a single vertical plane. A lower retaining spring holds up both the magazine (which contains the staples and pusher), and the upper driver portion to form a gap between the anvil and the staples, allowing the user to insert material to be bound without having to manually hold up the upper portion.
+
+
+
+
 ## Decide
 
 
