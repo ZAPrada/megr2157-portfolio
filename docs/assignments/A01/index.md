@@ -1,4 +1,4 @@
-# A1 – Analysis, Portfolio Creation - AUG/24/2026
+# A1 – Analysis, Portfolio Creation, About Me Creation - AUG/24/2026
 
 ## Objective
 
@@ -78,4 +78,6 @@ The changes I made to the home page were to
 ## Communicate
 
 See "About me" section via the banner on the left.
+
+This assignment took me 9 hours to complete.
 
