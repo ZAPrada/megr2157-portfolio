@@ -2,8 +2,9 @@
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
 
-Use the navigation on the left to move between assignments.
+**Use the navigation on the left to move between assignments.**
 
+___________________________________________________________________
 > **Engineering is the art of making decisions you can defend.**
 
 This site is the working record of my engineering design decisions across MEGR 2157. Every entry follows the Analyze, Decide, Communicate structure in accordance with standard engineering documentation practice, so a reader can see not just what I built, but how and why I built it that way.
