@@ -77,5 +77,5 @@ The changes I made to the home page were to
 
 ## Communicate
 
-
+See "About me" section via the banner on the left.
 
