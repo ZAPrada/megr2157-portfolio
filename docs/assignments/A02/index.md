@@ -106,6 +106,11 @@ Viewing the mass calculations done by Solidworks, and comparing them with my exp
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/6ca9a7a3-f59f-41d3-9737-00e0aee3fc2d" />
 
 
+
+
+
+[Click Here for the Solidworks Assembly files](https://drive.google.com/file/d/1ex-e3dsEJiqy9SEJHc66Y3I6tJZh3Ami/view?usp=sharing)
+
 ## Communicate
 
 I learned a lot completing this assignment, primarily in how little engineering math and theory I am actually knowledgeable in. As of the current moment, all design I have done has been very "off the top of the head," where I would use the intuition I have to construct things that may or may not work the first time. As it stand currently, I simply lack the skills to be able to properly, mathematically, create a functioning product. However, my ignorance shrank by an ever so slight amount in completing this assignment. I got to learn, vaguely, what stress and strain are, how they relate to forces and area, and how you can optimize for a certain outcome of the 4 using certain given criteria. Additionally, I have learned that projects such as this need much more attention to detail than I had previously thought, and that to be a proper engineer, one must set forth the right amount of time to be able to create an adequate product. All in all, though it may not be adequeate, the around 8 hours I spent on this assignment were extremely worthwhile.
