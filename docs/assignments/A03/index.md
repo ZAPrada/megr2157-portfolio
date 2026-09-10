@@ -83,7 +83,7 @@ Choose the end which would have the 500lb axial tension force applied to it, whi
 
 Pen-ultimately, create a mesh with medium resolution for the object so that SolidWorks would be able to efficiently, but accurately, calculate the stress and stretch on the rod.
 
-<img width="50" alt="image" src="https://github.com/user-attachments/assets/b84a821b-0fef-494c-9838-9114db1c5000" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/b84a821b-0fef-494c-9838-9114db1c5000" />
 
 
 Lastly, run the simulation and observe the results for displacement.
@@ -99,11 +99,72 @@ Lastly, run the simulation and observe the results for displacement.
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/7baf9934-5901-4d89-bbf7-08790e672f22" />
 
 
-## Reading FEA
+Pulling from the data of the 99.5% pure aluminum in SolidWorks, aluminum has a yield strength of about 40,000 psi (40 ksi). My rod however, based off of the vonMises stress map, sees a peak of 3626 psi (3.6 ksi). Rearranging the formula for working stress to solve for safety factor, I found my safety factor to be a whopping 11.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/833bf791-5e1c-448e-b679-a8192bcc7d01" />
+
+## Reflection
+
+Upon viewing the axial displacement of my rod in the deflection map, we can see it has a maximum value of 0.009005in, meaning the % difference between my read value and the maximum allowed displacement is a solid 0%, in other words, exactly as calculated. Based on this information we can infer that a circular, pure aluminum rod, has a minimum diameter of 0.5in and a minimum length of 35.88in if the design requirement states that it cannot stretch more than 0.009in. These numbers are not surprising as my calculations for the length were dependent on the maximum allowed stretch. So it is fully expected that a rod with these dimensions would meet the design criteria, even though it is meeting them at the extreme.
+Additionally, though the stress that the aluminum sees is much less than its yield strength, as the design requirements state that the *maximum* allowed stretch is 0.009in, I would prefer a design that had a thicker diameter, so that the extra molecular bonds withing the thicker rod would increase its overall strength, making sure that when >500lb of force is applied to the rod in tension, it will never get near that 0.009in stretch figure.
+
+### Same rod, now with a hole
+
+The end of the assignment description states that I must imagine a large hole on the mounting side of the cantilever, and estimate the stresses around the hole and be sure that they do not exceed my safety factor of 11.
+
+Firsly, as these values are typically found through testing, I needed a graph showing me the relationship between the size of the hole, and its related stress concentration factor, on a rod in tension. I was able to find as such in a Mechanical Engineering Design textbook written by Peterson which states exactly what I needed.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/cebf46c5-e0cd-4966-aa18-8b8162b3c2c5" />
+
+
+Given that the assignment directions ask for merely a "substantial pin hole," I chose my pin hole to take up half of my rod's diameter, giving me a value of 0.5 on the x axis. Then, tracing the graph, I get a value of about Kt = 2.2. Using this value, and the stress value read from my vonMises stress map close to the mounting point, I was able to use the Stress Concentration factor formula found in the Machinery's Handbook, along side the working stress formula, to roughly estimate what the stresses in the portions around the hole would be.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1d4dae9e-1cbc-4522-868c-908f274ba7dd" />
+
+I chose a value of q = 0.05 as Machinery's Handbook says that ductile material have a q = 0, and while aluminum is a ductile material, if I were to set K = 1, my results would be meaning less as the value calculated for stress around the pin hole would be the same as if the hole were not there, which is never the case in reality. As such I decided to pick a very low value so that sounded reasonable so that way my calculations would preform in some measurable way.
+
+
+With this stress around the hole calculated, I was able to then recalculate what my maximum allowed stress is based off of my previously calculated safety factor.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/eab9ee90-4108-4650-b017-f0801ad33108" />
+
+As such, a pin hole diameter must be less than half of that of the diameter of the rod, otherwise the stresses around the pinhole exceed that of my safety factor's acceptable max, which could lead to a catastrophic safety failure if too much load is put on the rod. 
+
+
+## Lessons Learned
+
+Compared to the previous assignment, I was glad this task didn't need nearly as much Solid Mechanics knowledge to accurate perform, as well as much less hand calculation. I much enjoyed how the only real math I have to do by hand for designs such as this is simple algebra, and I can simply input the values into SolidWorks and have it do the hard math for me. When learning how to setup equations within SolidWorks however, I found that you need to be very specific in how you define things, otherwise your dimention may only pull and set the value of the variable, instead of constantly pulling the value from the equations table. Additionally, I learned that you must have a firm grasp of how materials handle and their expected weakness and strength and how those weakness and strengths relate to their size, otherwise you may accidentally over-design a part by several orders of magnitude and cost the company you work for millions in unnecessary cost.
+
+In total I spent around 6 hours on this assignment.
+
+## 2157 Specific Section: Modifying Design Parameters.
+
+Through my conversation with my structural engineer friend, and viewing my parametric equations, I believe:
+1. If I were to change only the diameter of the rod, my final axial stretch would be the same, as the same load is applied and my length is based off of my diameter, causing the relationship between the diameter and the length to stay constant.
+2. If I was to change the the *expected* load (F) to a higher value, keeping all other variables equal, my final axial stretch would be less than 0.009in, as I had effectively designed the rod to withstand a higher load than it would be seeing during the FEA.
+3. If I were to keep all other variables equal, and only increase the length of the rod, I believe that the rod's final axial length will decrease, due to the fact that there are more atomic bonds resisting the stretch, thus lowering the final stretch.
+
+
+Verifying point 1.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/8e699351-1d55-48e0-bd43-9ea1d898f1dc" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1c2e9e19-12b1-4497-8ef5-c49f11e91ac6" />
+
+Assumptions made in point 1 are thusly verified.
 
 
 
+Verifying point 2.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/54242ba9-7d1a-447d-966e-da8a457d65b3" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/64eb3115-81cd-4b67-a791-e2d9b3f19465" />
+
+Assumptions made in point 2 are thusly verified. However, I did not expect for the length of the rod to decrease.
 
 
-## Communicate
 
+Verifying point 3.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e0d47348-382d-4cdc-a448-62459d7e4a8d" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/2b699f12-d7d5-4785-9a57-486939d24cf3" />
+
+Assumptions made in point 3 are thusly proven false. My solids knowledge however is not sufficient to understand why this may be the case.
+
+# [CAD file download](https://drive.google.com/file/d/1S985EJPT92NeRNLIvPmbMN9XGMjNrAUM/view?usp=sharing)
