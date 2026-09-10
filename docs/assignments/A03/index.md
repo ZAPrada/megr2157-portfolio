@@ -146,6 +146,7 @@ Through my conversation with my structural engineer friend, and viewing my param
 
 
 Verifying point 1.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/8e699351-1d55-48e0-bd43-9ea1d898f1dc" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/1c2e9e19-12b1-4497-8ef5-c49f11e91ac6" />
 
@@ -154,6 +155,7 @@ Assumptions made in point 1 are thusly verified.
 
 
 Verifying point 2.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/54242ba9-7d1a-447d-966e-da8a457d65b3" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/64eb3115-81cd-4b67-a791-e2d9b3f19465" />
 
@@ -162,6 +164,7 @@ Assumptions made in point 2 are thusly verified. However, I did not expect for t
 
 
 Verifying point 3.
+
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/e0d47348-382d-4cdc-a448-62459d7e4a8d" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/2b699f12-d7d5-4785-9a57-486939d24cf3" />
 
