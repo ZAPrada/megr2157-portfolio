@@ -183,4 +183,7 @@ In all this assignment took me 20 hours to complete.
 
 <a href="https://github.com/user-attachments/files/32326328/A4.pdf"><img width="900" alt="Part2" src="https://github.com/user-attachments/assets/a93380af-5974-4ecf-bdeb-8e8d3c8ce690" />
 
+Click image to download as PDF.
+
+
 To download and view in SolidWorks, [click here](https://github.com/user-attachments/files/32326118/Part2.zip).
