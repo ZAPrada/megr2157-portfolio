@@ -1,4 +1,3 @@
-<img width="1677" height="928" alt="Part2" src="https://github.com/user-attachments/assets/eb04c22d-9c17-48c6-a5b0-f3fef49790e2" />
 # A4 – [Topic]
 
 ## Objective
