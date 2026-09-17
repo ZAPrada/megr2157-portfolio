@@ -172,5 +172,14 @@ Very lastly, as the mount is symmetrical across the x-axis, to replicate the B s
 [Download](https://github.com/user-attachments/files/32326118/Part2.zip)
 
 
-## Communicate
+## Reflection
 
+The hardest part of this assignment easily was understanding how the part would deflect and how to apply the formulas learned in class. Even with help from a friend who is very good at solid mechanics, it still took me several hours of studying and research (and ultimately guess work) to understand how the force and motor would interact to deflect the beam. In the end I honestly do not believe I did it correctly, but this experience was very valuable in allowing me to find gaps in my knowledge.
+
+In all this assignment took me 20 hours to complete.
+
+## 2157 Specific section
+
+[A4.pdf](https://github.com/user-attachments/files/32326328/A4.pdf)
+
+To download and view in SolidWorks, [click here](https://github.com/user-attachments/files/32326118/Part2.zip).
