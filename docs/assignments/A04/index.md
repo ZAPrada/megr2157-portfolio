@@ -91,7 +91,7 @@ With this setup we can go through the same process as before, though this time c
 
 Similarly with before, solving for the maximum deflection gives us a higher value for out solved-for variable, thus L will be set to 27.4mm to ensure that the B section can meet both its strength and deflection requirements.
 
-## Cad modeling
+### Cad modeling
 
 Although I had done all the calculations by hand and determined all the values for the geometry of the mount, I still chose to solve for them parametrically, as if this were a real part and put into the real world, I would need to be able to easily make edits to the geometry based on how part testing goes. 
 
@@ -180,7 +180,7 @@ In all this assignment took me 20 hours to complete.
 
 ## 2157 Specific section
 
-<a href="https://github.com/user-attachments/files/32326328/A4.pdf"><img width="900" alt="Part2" src="https://github.com/user-attachments/assets/a93380af-5974-4ecf-bdeb-8e8d3c8ce690" />
+<a href="https://github.com/user-attachments/files/32326328/A4.pdf"><img width="900" alt="Part2" src="https://github.com/user-attachments/assets/a93380af-5974-4ecf-bdeb-8e8d3c8ce690" /></a>
 
 Click image to download as PDF.
 
