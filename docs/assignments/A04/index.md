@@ -1,3 +1,4 @@
+<img width="1677" height="928" alt="Part2" src="https://github.com/user-attachments/assets/eb04c22d-9c17-48c6-a5b0-f3fef49790e2" />
 # A4 – [Topic]
 
 ## Objective
@@ -180,6 +181,6 @@ In all this assignment took me 20 hours to complete.
 
 ## 2157 Specific section
 
-[A4.pdf](https://github.com/user-attachments/files/32326328/A4.pdf)
+<a href="https://github.com/user-attachments/files/32326328/A4.pdf"><img width="900" alt="Part2" src="https://github.com/user-attachments/assets/a93380af-5974-4ecf-bdeb-8e8d3c8ce690" />
 
 To download and view in SolidWorks, [click here](https://github.com/user-attachments/files/32326118/Part2.zip).
