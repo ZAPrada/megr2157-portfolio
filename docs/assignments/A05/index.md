@@ -174,7 +174,7 @@ As we want a pressure fit, we'll go for the lowest allowed clearance, 0.0008in. 
 
 This means we need to be able to manufacture our parts within <0.0008in. To find what process' can achieve this, we go to table 6 on page 650 of the Machinery's Handbook, and trace our finger down the nominal size until we hit .71-1.19in. Then we trace across until we hit a >= 0.0008in. In this case it just so happens to be 0.0008.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/66c01525-87a4-49f7-b1dc-0c6af213bb15" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e0fa1dd5-a947-44e3-8546-9e2349214772" />
 
 Therefore, if we look at the grades above the values before the one we stopped at, we know what grades are acceptable to manufacture within our tolerance. In this case, grades 4-6 are acceptable for both feature A and the link's holes.
 
@@ -183,4 +183,5 @@ Therefore, if we look at the grades above the values before the one we stopped a
 
 We then head to the table directly below the last one and wee what processes fall under the grade 4-6 range, which in our case is everything from lapping to reaming.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/80dfdcc3-c64b-4d49-96bb-c3004b3cfd15" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5349a264-154c-40bc-b0f6-406948d9d9ab" />
+
