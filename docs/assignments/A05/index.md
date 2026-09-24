@@ -174,7 +174,7 @@ As we want a pressure fit, we'll go for the lowest allowed clearance, 0.0008in. 
 
 This means we need to be able to manufacture our parts within <0.0008in. To find what process' can achieve this, we go to table 6 on page 650 of the Machinery's Handbook, and trace our finger down the nominal size until we hit .71-1.19in. Then we trace across until we hit a >= 0.0008in. In this case it just so happens to be 0.0008.
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/5cccfaf7-4b6b-4aad-93bc-8f59c21be7c4" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/66c01525-87a4-49f7-b1dc-0c6af213bb15" />
 
 Therefore, if we look at the grades above the values before the one we stopped at, we know what grades are acceptable to manufacture within our tolerance. In this case, grades 4-6 are acceptable for both feature A and the link's holes.
 
