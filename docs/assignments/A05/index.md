@@ -99,6 +99,29 @@ Using this value like how I had previously done, I think was able to calculate t
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/bf396644-ca9d-49a2-a8c7-a313c3cdccca" />
 
 
+## Design Drawings
+
+Once my nominal dimentions were complete, I was able to turn my focus to making sure the parts I had designed met the fit criteria set up by the assignment. Based on the instructions given, section _a_ was an R7 class fit, section _b_ was an R3 class fit, and section C was a class R1 fit.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/0954bc92-61e4-464b-982b-f1c5a1e5da7a" />
+
+
+
+
+Using the ASME fit standards table on page 654 and 655 of the Machinery's Handbook, I was able to then take my nominal dimensions and add the required tolerances to ensure a proper specified fit.\
+
+
+#### Designed for Strength Drawing
+
+<img width="500" alt="stress" src="https://github.com/user-attachments/assets/1a35550e-0d58-428a-807b-2a9c47b1ef63" />
+
+
+
+
+### Designed for Stiffness Drawing
+
+
+<img width="500" alt="displacement" src="https://github.com/user-attachments/assets/14ae3406-7eeb-4abc-85b8-fbabad4c4846" />
 
 
 
