@@ -31,7 +31,7 @@ To begin, I first assumed that the length of A would be the same as the width of
 
 
 
-Following this, I am able to use the standard stress formula to calculate the cross sectional area of section B. As area contains 2 values however, I set the width of section B to be equal to the diameter of section A so that everything would be nice and flush.
+Following this, I am able to use the standard stress formula to calculate the cross sectional area of section B. As area contains 2 values however, I set the width of section B to be equal to the diameter of section A so that everything would be nice and flush. Additionally, while I take into account the reaction forces from A compressing B, I assumed that the moment would not cause enough deformation, and thus ignored it and all future moments to ease calculations.
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a8313ce4-b857-4274-b9f2-87cd4087cf8f" />
 
@@ -126,5 +126,12 @@ Using the ASME fit standards table on page 654 and 655 of the Machinery's Handbo
 
 
 
-## Communicate
+## Lessons Learned
+
+All of the breadth results ended up being within a few percent of each other for both design's. However, all of the width and height measurements are wildly off from one design to the other. In particular, the width dimension for section D is over 6 times larger for the stress design than for the strength design, being 44.16in and 6.58in respectively. I believe this could be due to something in my calculations for the breadth of the parts, as currently they are all around sheet metal thickness, when (based off pure intuition) they should be relatively square with their width and height counterparts.
+
+Additionally, while calculating part D initially for the strength design, I ended up with a value of 12in. After analyzing the derived formula that solved for width, I found that even minor changes in the breadth of that particular part causes the width to grow in almost exponential ammounts. Therefor after noticing that, I went back and recalculated using the 2 times part B's thickness for the breadth of part CDE, and ended up with a much more reasonable value.
+
+Lastly, I believe ignoring reaction moments had huge effects on the dimensions of my final designs, as I _know_ the moments will play some sort of roll, especially at forces this high. However, I am not knowledgeable enough to know how to either turn moments into forces, or calculate the required information when taking into account reaction moments. I believe that if I were to have been able to account for moments, my features would not be nearly as thin and wouldn't have produced such strange errors.
+
 
