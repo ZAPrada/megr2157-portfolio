@@ -1,4 +1,4 @@
-# A5 – [Topic]
+# A5 – Designing a Bracket for Stiffness and Strength
 
 ## Objective
 
@@ -108,8 +108,9 @@ Once my nominal dimentions were complete, I was able to turn my focus to making 
 
 
 
-Using the ASME fit standards table on page 654 and 655 of the Machinery's Handbook, I was able to then take my nominal dimensions and add the required tolerances to ensure a proper specified fit.\
+Using the ASME fit standards table on page 654 and 655 of the Machinery's Handbook, I was able to then take my nominal dimensions and add the required tolerances to ensure a proper specified fit.
 
+(Note that the 2.5 +0.0016 tolerance comes from the 2 R3 class tolerances being added together)
 
 #### Designed for Strength Drawing
 
@@ -134,4 +135,52 @@ Additionally, while calculating part D initially for the strength design, I ende
 
 Lastly, I believe ignoring reaction moments had huge effects on the dimensions of my final designs, as I _know_ the moments will play some sort of roll, especially at forces this high. However, I am not knowledgeable enough to know how to either turn moments into forces, or calculate the required information when taking into account reaction moments. I believe that if I were to have been able to account for moments, my features would not be nearly as thin and wouldn't have produced such strange errors.
 
+From start to finish, this assignment took me around 18 hours to complete.
 
+
+## 2157 Specific Section
+
+
+First, I used the simple stress definition to calculate what would be the minimum cross section of the entire link (really, what would be found on the outside of the holes closest to the edge of the link).
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/414ca769-c5fb-4934-80f0-4536be65c8d4" />
+
+
+
+Using this, we can then set the thickness of the link to an arbitrary value such as 0.25in, and then divide out cross sectional area by our thickness to get out minimum length for cross sectional area.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/f401604f-5fa7-4a33-a5a1-6c1386bd4d1e" />
+
+
+This then means that edge of each of the 1in holes cannot be less than 0.352in away from each other, or any of the edges of the link
+
+
+Then I am able to find the minimum length of the entire link using the simple deflection formula and rearranging for length.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/aed49f12-e31a-4552-b250-da03052ef432" />
+
+
+
+With these 3 numbers, while there may be a lot of play in exactly where we can place these holes, we are able to design a link which will meet the required strength and stiffness requirements.
+
+
+
+Additionally, with this ammount of wiggle room, in order to keep manufacturing cheap, we will go for the loosest fit tolerance possible, while still being able to fit parts with light pressure. Based off of page 651 of the Machinery's Handbook, this would be RC3. To find what the tolerance value for this would be, we first look at Table 8a and 8b on page 654 and 655 of the Machinery's Handbook. There we look for the nominal size range of .71 - 1.19in, and trace out finger all the way until we find the clearance section under Class RC3.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/34467fc0-33d1-4337-87b5-2afacfd61715" />
+
+
+As we want a pressure fit, we'll go for the lowest allowed clearance, 0.0008in. To achieve this, based on the same table, we need the hole to be +0 and the shaft to be -0.0008in. As it is impossible to always be withing 0.00001in, we will choose the next best set of values, which will be +0.0008in for the hole in the link, and -0.0008in for feature A.
+
+This means we need to be able to manufacture our parts within <0.0008in. To find what process' can achieve this, we go to table 6 on page 650 of the Machinery's Handbook, and trace our finger down the nominal size until we hit .71-1.19in. Then we trace across until we hit a >= 0.0008in. In this case it just so happens to be 0.0008.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5cccfaf7-4b6b-4aad-93bc-8f59c21be7c4" />
+
+Therefore, if we look at the grades above the values before the one we stopped at, we know what grades are acceptable to manufacture within our tolerance. In this case, grades 4-6 are acceptable for both feature A and the link's holes.
+
+
+
+
+We then head to the table directly below the last one and wee what processes fall under the grade 4-6 range, which in our case is everything from lapping to reaming.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/80dfdcc3-c64b-4d49-96bb-c3004b3cfd15" />
