@@ -116,7 +116,7 @@ Then finally, I add all of the dimensions, and include the tolerances for sectio
 
 
 
-## Analyze
+## Reflection
 
 The equation that had the most effect on this design was easily the thickness of section C. As the original equation which solves for the height of a simply supported beam included 2 unknowns, I had to set at least one variable, of which I chose the thickness. Originally this thickness had been set as the same as the thickness of section B plus the length of section A, which decreased the height to a personally reasonable level. However, when designing section D, as the thickness of section D is equal to that of section C, and the thickness of section D plays a major role in determining the width of section D, I ended up needed to decrease the thickness of section C all the way down to only 2 times the thickness of section B, otherwise section D would become incredibly wide and the part would resemble a bird instead of a mount. Thus I had to make the "sacrifice" of having section C be slightly tall so that D wouldn't spread out its wings.
 
@@ -135,7 +135,7 @@ Image of full equations list
 
 
 
-## 2157 Specifc section
+# 2157 Specifc section
 
 ### CAD Design
 
