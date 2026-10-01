@@ -130,6 +130,7 @@ In all this project took me around 7 hours to complete.
 [CAD files download](https://github.com/user-attachments/files/32908615/stress.zip)
 
 Image of full equations list
+
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/82a8019d-afe8-468a-8174-30d48c45225f" />
 
 
