@@ -110,8 +110,26 @@ Then finally, I add all of the dimensions, and include the tolerances for sectio
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/3266fea7-fcd1-470b-81a5-f80cd82a266c" />
 
+### Finalized drawing
+
+<img width="2200" height="1700" alt="stress" src="https://github.com/user-attachments/assets/fc2239d0-b157-4ec1-9a60-3dcc23443a42" />
 
 
 
 ## Analyze
+
+The equation that had the most effect on this design was easily the thickness of section C. As the original equation which solves for the height of a simply supported beam included 2 unknowns, I had to set at least one variable, of which I chose the thickness. Originally this thickness had been set as the same as the thickness of section B plus the length of section A, which decreased the height to a personally reasonable level. However, when designing section D, as the thickness of section D is equal to that of section C, and the thickness of section D plays a major role in determining the width of section D, I ended up needed to decrease the thickness of section C all the way down to only 2 times the thickness of section B, otherwise section D would become incredibly wide and the part would resemble a bird instead of a mount. Thus I had to make the "sacrifice" of having section C be slightly tall so that D wouldn't spread out its wings.
+
+One dimension which needed to be a tight tolerance was the height of the "slot" (aka section _c_), as this was stated by the instructions to be a critical feature which would be mating with the provided bracket, and needed as little play as possible. For section _c_ I merely chose the its tolerance based off of the design requirements provided that said that _c_ needed to have a fit "where accurate location and minimum play is desired."  And based off the readings from the Machinery's Handbook, this would be classified as a class R1 fit.
+One dimension that _didn't_ require such tight tolerances though was section A, the shaft on which the strap would mount. I didn't believe this needed to be so precise seeing as how there would be plenty of clearance on all sides of the rod to slide the strap onto. Due to this clearance, and our safety factor, unless the diameter of the shaft is off by an extremely considerable amount, the part will see no additional stress if the part is smaller, or or clearance issues if the shaft is too big. Thus I simply left the dimension as unmarked which would then default back onto the tolerances marked in the data sheet.
+
+## Appendix
+
+[CAD files download](https://github.com/user-attachments/files/32908615/stress.zip)
+
+Image of full equations list
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/82a8019d-afe8-468a-8174-30d48c45225f" />
+
+
+
 
