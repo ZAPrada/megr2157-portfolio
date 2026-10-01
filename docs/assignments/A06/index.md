@@ -1,4 +1,4 @@
-# A6 – [Topic]
+# A6 – T Bracket CAD Drawing
 
 ## Objective
 
@@ -123,6 +123,8 @@ The equation that had the most effect on this design was easily the thickness of
 One dimension which needed to be a tight tolerance was the height of the "slot" (aka section _c_), as this was stated by the instructions to be a critical feature which would be mating with the provided bracket, and needed as little play as possible. For section _c_ I merely chose the its tolerance based off of the design requirements provided that said that _c_ needed to have a fit "where accurate location and minimum play is desired."  And based off the readings from the Machinery's Handbook, this would be classified as a class R1 fit.
 One dimension that _didn't_ require such tight tolerances though was section A, the shaft on which the strap would mount. I didn't believe this needed to be so precise seeing as how there would be plenty of clearance on all sides of the rod to slide the strap onto. Due to this clearance, and our safety factor, unless the diameter of the shaft is off by an extremely considerable amount, the part will see no additional stress if the part is smaller, or or clearance issues if the shaft is too big. Thus I simply left the dimension as unmarked which would then default back onto the tolerances marked in the data sheet.
 
+In all this project took me around 7 hours to complete.
+
 ## Appendix
 
 [CAD files download](https://github.com/user-attachments/files/32908615/stress.zip)
@@ -131,5 +133,58 @@ Image of full equations list
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/82a8019d-afe8-468a-8174-30d48c45225f" />
 
 
+
+## 2157 Specifc section
+
+### CAD Design
+
+To begin, I started by copying over all of the variables from the earlier part of this assignment, only adding the elasticity modulus and the simplification for area.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d1bfff52-b22d-48ad-a366-af2168473d7a" />
+
+
+
+
+I then started the general shape of the using the slot tool
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/57048f81-a091-4fa2-8d90-a7739cc30e3d" />
+
+
+
+
+I then set the diameter of the hole to be the exact same formula used to calculated the diameter of the shaft.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/68505b5c-8dd3-4464-828f-0cd2aba09cb2" />
+
+
+
+
+Then, based off the minimum cross sectional area derived from the last assignment, I applied the formula derived for length (setting the thickness of the link to 0.25in) to be the length between the edge of the slotted circle, and the outer edge of the slot, to be no more than this distance. As well as making sure that the circle and the outer circle of the slot were cocentric so that they would always be this distance apart
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/12d598e3-5bfc-4401-9009-75f5aab3f7b0" />
+
+
+
+
+Lastly, I applied the deformation formula, solving for length with a fixed 0.25in thickness, in order to get the total end to end length of the part. And mirrored the hole already created as to match the assignment design specifications.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/36f0e7d3-100f-431e-8e78-d4f0c36daaa8" />
+
+
+
+Finished part extruded to 0.25in.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/85dc9379-33e6-4735-80c8-cd66c6c3d842" />
+
+
+### Drawing of link
+
+<img width="500" alt="link" src="https://github.com/user-attachments/assets/3bd49e21-6bb7-4c1c-a39d-eacdd96b24a3" />
+
+### Reflection
+
+When preforming tolerancing between 2 separate parts, I was strangely surprised how often I had to swap between the 2 in order to get the dimensioning right. I would have assumed that once you applied the tolerances to one part you would be done, but instead I needed to constantly reference both parts to ensure that one would actually fit in the other, and that they wouldn't crash into each other.
+
+I believe that there is a linear relationship between tightness of tolerance and "professionalism." If a part needs to be designed within 0.0001in, that part most likely is being used in an extremely sensitive or high performance application, where anything short of actual perfection is unacceptable. Additionally, if a part is dimension to a precise enough, that would give the designer/company working on the part seem more "prestigious," effectively waving a sign saying "look at us, we're able to manufacturer something to this high of a standard of quality." While low tolerances and dimension conveys the exact opposite.
 
 
