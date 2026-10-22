@@ -304,3 +304,115 @@ Despite seeing that our values do not converge to below 7%, we can see that even
 
 While I didn't learn a whole lot from this lesson, and when I test parts I have made or 3d printed, I usually try to measure the test components til failure after having physically made them, as I believe that will give me the best data possible for how to improve the design. However, I learned many things in this assignment about how to do that real life testing, but specifically within SolidWorks' FEA simulation system. This definitely will help me later one save both time and money on materials as I will no longer need to constantly build physical prototypes to test. Additionally, I much enjoyed how you could see exactly where the max stress and or deflection occurred, so you can much more easily pinpoint places that would need reinforcement. I will definitely continue using this tool later on in my engineering career, as I firmly believe that it will save me an immeasurable amount of both time and money, especially as you typically do not need an extremely powerful machine to run these simulations unless they are extremely complicated. 
 
+
+# 2157 Specific Section
+
+Again, I have chosen a ASTM A36 steel, and a minimum SF of 3.0 as my design criteria.
+
+### Setting up Analysis
+
+Fixing one hole while putting a force of 800lbs on one half of the other
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/64e2e6c2-612f-4c91-a66a-5b58bc86b745" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c1a34d58-6d32-4758-bc85-2cad8de53e81" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c4915b2d-fbcc-47ed-ba28-a6d11cab3de2" />
+
+
+## Design 1
+
+Mass of 1.67lbs
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/af8a614d-e15b-402c-8bc0-d84f426b53e5" />
+
+
+#### Course mesh FEA
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/862baa80-b100-4b28-a4f1-855b85762522" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e93674d7-e447-4ba7-a69b-d9f7f817498f" />
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/12c4f3b2-a76a-44af-8b4f-b70a6aa279f8" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/24ffd14b-869b-4506-996d-925a8a5b4ea6" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/95fba747-9f5b-49f1-903c-2ee2f3d39f86" />
+
+
+#### Fine-course mesh
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5bedffc2-4d89-411e-abfc-173ba2a40828" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/4df1f457-1390-4d85-aac8-af7f52620e59" />
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/60f86df4-9aea-4f12-a2f0-f89b32c367ed" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/379b8ee2-f323-4c35-8aeb-eadfe821d211" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/74bd5984-3cde-4189-9fb7-0458dc9ea1d8" />
+
+
+
+
+
+Results do not converge to <7%, therefor must produce third FEA.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/699b87a2-3245-49f4-b49a-58ff25f89ca4" />
+
+
+#### Fine Mesh
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d6017051-97e1-4717-8ee1-dc0210d0f305" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d89a037a-5184-4361-80c4-80659fb04bf3" />
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/3f883764-06d3-427b-bbc8-e8a9112d22f5" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/5e500e22-8646-496e-a28b-003e53a20e8e" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/62d99b88-0f48-481f-a419-ec9531704fcf" />
+
+
+Based off of these FEAs, length can be shortened, but link will need to be make thicker.
+
+## Design 2
+
+Length of link is divided in half, space between outer edge and holes increased by 1.5 times.
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d0df5941-8b60-4a1c-ba1a-8702490e96ad" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/2934f452-21d5-488d-b9d4-80c3bc0a69e7" />
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/1b3f23fb-2160-46c1-98c0-3e6686ff0ba3" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/f835ee0f-6306-409b-b516-37e697969fc3" />
+
+Mass is now 0.96lbs
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/ba13f75a-77ad-4408-88e1-e60da9c383e5" />
+
+
+#### Course mesh
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d6e31df6-c42c-499a-92b6-dc8dab100cd3" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6a4a693d-7148-43e9-86b4-ba5f29cb41da" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
