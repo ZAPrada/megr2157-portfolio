@@ -263,4 +263,23 @@ Perhaps the biggest lesson I learned from this assignment was that there was an 
 Total time spent on this assignment: 12 hours.
 
 
+## Download CAD Files
 
+[Click Here](https://drive.google.com/file/d/1HwRSZhDR1nObeg_bF3YeOZcLB-42rrsw/view?usp=sharing)
+
+
+## 2157 Specific Section
+
+<img width="978" height="752" alt="image" src="https://github.com/user-attachments/assets/089fefc9-02e1-474a-88a1-0701c675ca39" />
+
+<img width="1066" height="824" alt="image" src="https://github.com/user-attachments/assets/4a2defc0-700f-4c2e-bbfd-8c28524d46b9" />
+
+<img width="1094" height="843" alt="image" src="https://github.com/user-attachments/assets/933221e0-da51-4b7b-b155-72c3e2256ca8" />
+
+<img width="1085" height="836" alt="image" src="https://github.com/user-attachments/assets/d2be3956-e260-48ce-8002-dd1664ae2be6" />
+
+<img width="1048" height="807" alt="image" src="https://github.com/user-attachments/assets/969730ed-2be0-402a-9293-756a26f2ba31" />
+
+<img width="1098" height="845" alt="image" src="https://github.com/user-attachments/assets/741e65e8-5aaa-4af4-992d-176fe7a39e83" />
+
+<img width="1013" height="780" alt="image" src="https://github.com/user-attachments/assets/9b9e208c-d40a-4f8b-9d83-c12497e05316" />
