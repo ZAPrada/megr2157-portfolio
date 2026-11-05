@@ -7,7 +7,7 @@ For this assignment, we were tasked with selecting a suitable band which would w
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/c7522082-3739-4943-a5bc-d210884080e9" />
 
 
-## Pulley band selection
+## Pulley Band Selection
 
 I first began simply by drawing a FBD of only one of the pulleys, taking advantage of the symmetry of the pulley design to simplify my hand calculations, as all of my calulcations could simply be done on one pulley and then transferred to the other. After drawing the FBD, I went about listing every known and unkown I could possibly have, though at this stage I was still a little blind and was unsure what exactly I would need, as such my unknowns contain some which I never end up calculating until much later.
 
@@ -52,7 +52,7 @@ Now with a minimum diameter of .29in and a maximum length (maximum as a band any
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/10e53d10-bbd6-4eb4-8cc4-4e92d021c199" />
 
 
-## Minimum Shaft Diameter Calculator
+## Minimum Shaft Diameter Calculation
 
 Part of the assignment was finding a shaft made of 1030 hardened steel which could be inserted in the pulleys and withstand the torque produced by pulley's movement and translate the power accordingly. To do this I first began again by listing all my known and unkowns, while drawing an FBD of only one pulley again to simplify the math. Most of my values were either previouslly derived, given in the assignment instructions, or derived from Matweb when it came to material properties.
 
@@ -86,7 +86,7 @@ Finally, I calculated the torsional shear using the formula found in the Machine
 Using this, I found the minimum diameter of the shafts for the pulleys to be 0.142in.
 
 
-## Selecting appropriate bushing material
+## Selecting Appropriate Bushing Material
 
 
 The penultimate part of this assignment was to select an appropriate bushing material that could withstand the surface speed and pressure applied via the pulleys. To do this I first listed all of my knowns and unknowns, and then drew an FDB of the pulley. I assumed the only force acting on the bearing would be that of the force produced by the 2 sides of the bands stretched to 6lbs along the entire surface of the bearing. Though this may be unrealistic, I chose it as to compensate for any additional stresses the bearing may encounter in the real world that I may not have accounted for. Additionally, I assumed the length of the bearing to be only that of the band's diameter, as this would perform a similar compensation as previously stated.
