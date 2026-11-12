@@ -353,9 +353,12 @@ At this finest mesh setting, we found that the minimum safety factor was just ov
 
 ### Crossbeam Drawing
 
+<img src="https://github.com/user-attachments/assets/f627cf13-e9b0-447e-87b3-18f8fc1b9c56" />
 
 
+## CAD Files download
 
+[Click Here](https://drive.google.com/file/d/1OajoFGYmqYE4BQru5pYw5TExjGy32nfQ/view?usp=drive_link)
 
 
 
