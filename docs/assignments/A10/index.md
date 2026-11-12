@@ -349,7 +349,17 @@ Calculating the difference in these simulated values, we found that they do not 
 
 <img src="https://github.com/user-attachments/assets/934673b5-66cf-412e-8b0f-1d3debdc6ab8" />
 
-At this finest mesh setting, we found that the minimum safety factor was just over 4, right on the line of what is acceptable by the assignment, and thus a design that has been optimized.
+At this finest mesh setting, we found that the minimum safety factor was just over 4, right on the line of what is acceptable by the assignment, and thus a design that has been optimized primarily for mass.
+
+Mass before: 3.11 lbs
+
+<img src="https://github.com/user-attachments/assets/1619e066-c648-49f9-a910-d44c066b53fb" />
+
+Mass after: 1.38 lbs
+
+<img src="https://github.com/user-attachments/assets/30f42c32-9870-444f-bfe9-e8b5238b80a2" />
+
+
 
 ### Crossbeam Drawing
 
