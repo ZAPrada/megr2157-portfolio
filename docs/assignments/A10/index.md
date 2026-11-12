@@ -1,4 +1,4 @@
-D# A10 – Lead Screw Translating System
+# A10 – Lead Screw Translating System. Ezra Bono & Zachary Prada
 
 # Objective
 
@@ -241,6 +241,142 @@ In total, this assignment took 12 hours to complete.
 
 ## 2157 Specific Section (Ezra Bono)
 
+### Splitting faces
+
+The faces were split as shown to better simulate how the crosshead would perform under a real test. The square face is where a clamp to hold the material would be attached, while the 2 circular faces are the flange faces.
+
+<img src="https://github.com/user-attachments/assets/5de21ab1-e829-4892-a608-62de1c56ee40" />
+
+<img src="https://github.com/user-attachments/assets/2d2f0f13-d533-4aef-8213-edb8f53593c8" />
+
+<img src="https://github.com/user-attachments/assets/8f6ab67e-9a9c-497d-89f0-c852a152e878" />
+
+<img src="https://github.com/user-attachments/assets/5bb83ab5-95e4-4ce4-aeba-16fcd470a978" />
+
+
+### Applying forces and Constraining
+
+The circular faces (supporting flanges) were constrained to act as if they were attached rigidly, and the specified 2000 N force was placed on the square face.
+
+<img src="https://github.com/user-attachments/assets/6e05214b-169a-4c8c-98f2-fe966a8dedd6" />
+
+<img src="https://github.com/user-attachments/assets/771e6049-af6a-440f-8b09-d4d47f9581e8" />
+
+### FEA on initial design
+
+First, we did the most course mesh possible to increase compute speed, and analyzed the simulation to find that the part was well within specified design requirements.
+
+<img src="https://github.com/user-attachments/assets/2cf9ae54-cf60-4174-a7ed-c78be410d4ad" />
+
+<img src="https://github.com/user-attachments/assets/d8d7ce17-d7eb-427f-9bd3-1a1370e0cb28" />
+
+<img src="https://github.com/user-attachments/assets/ed24ae34-dc52-4e1c-9c27-cf0895625a7e" />
+
+<img src="https://github.com/user-attachments/assets/758400ed-585c-43e0-b709-a506addc694a" />
+
+<img src="https://github.com/user-attachments/assets/4a2fc0a7-64f3-4ad0-b1a2-4ad208556432" />
+
+ We then ran the FEA again with a finer mesh to test for convergence.
+
+<img src="https://github.com/user-attachments/assets/cadb93bd-abb3-46c8-9ebd-f220ffcb7bed" />
+
+<img src="https://github.com/user-attachments/assets/895df992-5e00-4ef2-a592-fe1a389d730c" />
+
+<img src="https://github.com/user-attachments/assets/8cb9f8fc-e933-454e-bd9d-4fe5152dce86" />
+
+<img src="https://github.com/user-attachments/assets/1add445b-548f-4cc9-a51b-0bcf156efe5b" />
+
+<img src="https://github.com/user-attachments/assets/a485a8c5-1e66-4882-a28e-fcc91bc74bbb" />
+
+<img src="https://github.com/user-attachments/assets/7a227ecc-9b5f-4f39-9932-65efc13f2fac" />
+
+Using these values, we found that convergence was not reached, as such we ran the FEA one last time with the finest mesh possible.
+
+<img src="https://github.com/user-attachments/assets/3d621d8b-7a2e-485b-b3da-8825d598e460" />
+
+<img src="https://github.com/user-attachments/assets/2a098f9d-0573-4d48-9105-406b47361ffc" />
+
+<img src="https://github.com/user-attachments/assets/7384ba5b-2a2a-431f-a099-0a9556975f55" />
+
+<img src="https://github.com/user-attachments/assets/a0726f2f-0202-487a-a3ad-f456c3e75e61" />
+
+<img src="https://github.com/user-attachments/assets/39053f1d-e65f-49b1-8330-831e3ce9dd76" />
+
+<img src="https://github.com/user-attachments/assets/73915536-da7e-48a0-a403-fe06a3feb8ee" />
+
+### Design Alterations & Optimization
+
+As the safety factor was well above the minimum 4 required by the assignment, we chose to alter the design by making the cross sectional area of the crosshead smaller in order to save on material, eyeballing a factor of 1/1.5 derived from guesstimating that we could keep around 2/3rds of the material and still be ok.
+
+<img src="https://github.com/user-attachments/assets/ef47f997-310f-4b94-acd4-be314658adef" />
+
+After we changed the area, we ran the FEA twice again to test for convergence and to see if the crosshead kept a minimum safety factor of 4.
+
+First run:
+
+<img src="https://github.com/user-attachments/assets/aab54d8e-ebce-46d5-a69b-1e652bfa5109" />
+
+<img src="https://github.com/user-attachments/assets/6525f38f-3090-4c94-bae7-2ad96357ba3a" />
+
+<img src="https://github.com/user-attachments/assets/ae2ff6ce-4c66-40d4-a29c-797271d84b3c" />
+
+<img src="https://github.com/user-attachments/assets/492b2516-7ebe-4f47-a7d1-e727cab7c5e6" />
+
+Second run:
+
+<img src="https://github.com/user-attachments/assets/9ed23860-b5e8-4d3d-a322-9d1f2472d0a9" />
+
+<img src="https://github.com/user-attachments/assets/799625de-4014-47f2-90e0-9ec6424605fa" />
+
+<img src="https://github.com/user-attachments/assets/1f961c41-0d19-4def-99f8-eb48e352f853" />
+
+<img src="https://github.com/user-attachments/assets/9eb31d31-c3b9-43fb-896f-dd7ca02ef88a" />
+
+<img src="https://github.com/user-attachments/assets/e657c68f-38bb-4e5a-b488-c7be0731ea35" />
+
+
+Calculating the difference in these simulated values, we found that they do not converge to less than 7%, as such we ran the FEA one last time, again at the finest mesh setting allowed by SolidWorks.
+
+<img src="https://github.com/user-attachments/assets/c376c0dd-a38f-4e11-a30b-40b0bc694b39" />
+
+<img src="https://github.com/user-attachments/assets/6fd2b41d-2361-4b37-86ad-9577fb0ea789" />
+
+<img src="https://github.com/user-attachments/assets/de1956c8-7c72-459b-bc89-bdeb339addc3" />
+
+<img src="https://github.com/user-attachments/assets/42e0e1d4-5353-4ffa-8e16-5ba07b0fcdc9" />
+
+<img src="https://github.com/user-attachments/assets/9b62ea48-a9ab-45a2-83d3-8e3b3ab23e7f" />
+
+<img src="https://github.com/user-attachments/assets/934673b5-66cf-412e-8b0f-1d3debdc6ab8" />
+
+At this finest mesh setting, we found that the minimum safety factor was just over 4, right on the line of what is acceptable by the assignment, and thus a design that has been optimized.
+
+### Crossbeam Drawing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -274,11 +410,5 @@ In total, this assignment took 12 hours to complete.
 
 
 
-
-
-## Decide
-
-
-## Communicate
 
 
