@@ -1,6 +1,6 @@
 # A10 – Lead Screw Translating System. Ezra Bono & Zachary Prada
 
-# Objective
+## Objective
 
 For this assignment, we were tasked with pairing in groups, in our case: Ezra Bono and Zachary Prada, to design a system which tested materials in tension via a crosshead that was continuously lifted along 2 lead screws. The system needed to be able to pull the material with a repeatable 2000 N of force, have a speed range of 1-50mm/min, be purely mechanical, and have all components designed with a minimum safety factor of 4.
 
