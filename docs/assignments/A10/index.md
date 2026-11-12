@@ -7,7 +7,7 @@ For this assignment, we were tasked with pairing in groups, in our case: Ezra Bo
 ## Lead Screw Calculations (Zachary Prada)
 
 ### Lead Screw Diameter 
-First we needed to calculate the minimum diameter of the lead screw, to do this we must first list all knowns and unknowns. We would also draw an FBD to go along with this. The yield strength was selected based off of the selection of material avaliable from McMaster. Specifically 4140 Black-Oxide Steel.
+First we needed to calculate the minimum diameter of the lead screw, to do this we must first list all knowns and unknowns. We would also draw an FBD to go along with this. The yield strength was selected based off of the selection of material avaliable from McMaster-Carr. Specifically 4140 Black-Oxide Steel.
 
 ![](A10Z_1.png)
 
@@ -16,7 +16,7 @@ Afterwards we would first find all applicable equations, we would then symbolica
 ![](A10Z_2.png)
 
 ### Lead Screw Rotational Speed 
-To begin, based off of the 4140 Black-Oxide Steel lead screw options available from McMaster, the smallest diameter lead screw which was still above the minimum diameter previously calculated was 0.25in. Thus, rotational speed would be calculated off of this real diameter in order to get a more real value which our system will experience.
+To begin, based off of the 4140 Black-Oxide Steel lead screw options available from McMaster-Carr, the smallest diameter lead screw which was still above the minimum diameter previously calculated was 0.25in. Thus, rotational speed would be calculated off of this real diameter in order to get a more real value which our system will experience.
 
 Then we needed to find the rotational speed of the lead screw based upon the linear speed of the crossbar stated in the problem. To do this we started with all knowns and unknowns and drew an FBD to go along with it.
 
@@ -27,19 +27,19 @@ Once all knowns and unknowns are listed we can then find all equations needed to
 ![](A10Z_4.png)
 
 ### Lead Screw Torque
-To finally pick a lead screw that met all our requirements we lastly needed to solve for out max torque that will be applied on said lead screw. By this point, we had assumed that McMaster 98940A191 would be sufficient and meet our design requirements. As such, in order to more easily calculate what forces the screw would experience, we decided to use this lead screw in order to eliminate certain variable such as pitch. Then, we listed all knowns and unknowns and drew and FBD. 
+To finally pick a lead screw that met all our requirements we lastly needed to solve for out max torque that will be applied on said lead screw. By this point, we had assumed that McMaster-Carr 98940A191 would be sufficient and meet our design requirements. As such, in order to more easily calculate what forces the screw would experience, we decided to use this lead screw in order to eliminate certain variable such as pitch. Then, we listed all knowns and unknowns and drew and FBD. 
 
 ![](A10Z_5.png)
 
 ![](A10Z_6.png)
 
-After figuring out our unknowns we know what we must solve for, thankfully solving for this problem symbolically was quite easy as there was a readily avaliable formula within the Machinery's Handbook. We then solved numerically to find a max torque of 9.01 in-lbf. Once all our specifications were calculated we then could select an applicable lead screw off of McMaster-Carr. We finally landed on a 1/4 inch, Black Oxide, Steel Lead screw. (Part Code - 98940A191)
+After figuring out our unknowns we know what we must solve for, thankfully solving for this problem symbolically was quite easy as there was a readily avaliable formula within the Machinery's Handbook. We then solved numerically to find a max torque of 9.01 in-lbf. Once all our specifications were calculated we then could select an applicable lead screw off of McMaster-Carr-Carr. We finally landed on a 1/4 inch, Black Oxide, Steel Lead screw. (Part Code - 98940A191)
 
 ![](A10LS.png)
 
 ## Nut and Flange Calculations (Zachary Prada)
 
-We then needed to find a proper nut and flange to go along with our lead screw. To select a proper nut and flange we must perform a stress analysis on the threads. As the interior threads had already been decided (based on the thread spec of the lead screw), we would use ACME 1/4"-16 thread in our analysis. To begin, we: listed all knowns and unknowns, solved symbolically, then finally solved numerically to verify that the interior threads of the shortest nut offered by McMaster would be sufficient.
+We then needed to find a proper nut and flange to go along with our lead screw. To select a proper nut and flange we must perform a stress analysis on the threads. As the interior threads had already been decided (based on the thread spec of the lead screw), we would use ACME 1/4"-16 thread in our analysis. To begin, we: listed all knowns and unknowns, solved symbolically, then finally solved numerically to verify that the interior threads of the shortest nut offered by McMaster-Carr would be sufficient.
 
 ![](A10Z_7.png)
 
@@ -48,7 +48,7 @@ A similar process was followed for verifying the the outer threads for the flang
 <img src="https://github.com/user-attachments/assets/cde58b69-c5d0-4ced-af09-3943aaf46838" />
 
 
-Once solved, we then found a nut and flange on McMaster-Carr that would fit our application, and importantly, worked with our lead screw. (Part Code - 95072A881)
+Once solved, we then found a nut and flange on McMaster-Carr-Carr that would fit our application, and importantly, worked with our lead screw. (Part Code - 95072A881)
 
 ![](A10NF.png)
 
@@ -80,10 +80,10 @@ Since our minimum side length of our stress analysis was higher than the minimum
 
 | Part Number | Quantity | Name | Unit Cost | Total Cost |
 | :--- | :--- | :--- | :--- | :--- |
-| 47065T101 | 4 | [T-Slotted Framing](https://www.mcmaster.com/47065T554) | 11.19 | 44.76 |
-| 95082A641 | 2 | [Precision Acme Flange](https://www.mcmaster.com/95082A641) | 37.06 | 74.12 |
-| 95072A881 | 2 | [Precision Acme Externally Threaded Nut](https://www.mcmaster.com/95072A881) | 35.78 | 71.56 |
-| 98940A191 | 2 | [4140 Black-Oxide Steel Precision Acme Lead Screw](https://www.mcmaster.com/98940A191) | 35.95 | 71.90 |
+| 47065T101 | 4 | [T-Slotted Framing](https://www.McMaster-Carr.com/47065T554) | 11.19 | 44.76 |
+| 95082A641 | 2 | [Precision Acme Flange](https://www.McMaster-Carr.com/95082A641) | 37.06 | 74.12 |
+| 95072A881 | 2 | [Precision Acme Externally Threaded Nut](https://www.McMaster-Carr.com/95072A881) | 35.78 | 71.56 |
+| 98940A191 | 2 | [4140 Black-Oxide Steel Precision Acme Lead Screw](https://www.McMaster-Carr.com/98940A191) | 35.95 | 71.90 |
 | **Total** | | | | **262.34** |
 
 ## System CAD Model (Zachary Prada)
@@ -129,7 +129,7 @@ After all the features on one side were modeled properly, I then mirrored all th
 
 In order to make the final assembly simpler, I chose to have the nut and flange be made into a subasssembly that would then be put into the larger main assembly.
 
-First, using a McMaster SolidWorks addon, I added in the nut and set its origin to be coincident with the origin of the sub-assembly.
+First, using a McMaster-Carr SolidWorks addon, I added in the nut and set its origin to be coincident with the origin of the sub-assembly.
 
 <img src="https://github.com/user-attachments/assets/91a36d06-b80c-405d-85cc-8b9e6a301bf1" />
 
