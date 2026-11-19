@@ -1,4 +1,4 @@
-# A11 – Motor Selection
+# A11 – Motor Selection (Ezra Bono & Zachary Prada)
 
 ## Objective
 
@@ -164,19 +164,14 @@ The biggest lesson learned from this assignment was that parts with many faces (
 Total time spent on this project (both team members summed): 22 hours.
 
 
-## 2157 Specific Section
+## 2157 Specific Section (Zachary Prada)
 
+<img src="https://github.com/user-attachments/assets/92fb845b-aea6-4d42-b36d-0a6034dbd025" />
 
+<img src="https://github.com/user-attachments/assets/2e090355-9096-4d7a-a2d1-7286ed936011" />
 
+<img src="https://github.com/user-attachments/assets/f917b258-d6ef-4f2f-b4eb-be3466e62715" />
 
-
-
-
-
-
-
-
-
-
+<img alt="crosshead" src="https://github.com/user-attachments/assets/7e3e2422-de37-424c-95c5-a487b404dc48" />
 
 
