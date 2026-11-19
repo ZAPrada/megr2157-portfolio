@@ -175,3 +175,6 @@ Total time spent on this project (both team members summed): 22 hours.
 <img alt="crosshead" src="https://github.com/user-attachments/assets/7e3e2422-de37-424c-95c5-a487b404dc48" />
 
 
+## Link to CAD files:
+
+[Click here](https://drive.google.com/drive/folders/1B00bF55PLqL_K2VPpRIpLUm0DM6aOIk0?usp=sharing)
